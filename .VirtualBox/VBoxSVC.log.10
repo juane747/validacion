@@ -1,0 +1,55 @@
+00:00:00.004828 main     VirtualBox COM Server 6.1.36 r152435 win.amd64 (Jul 19 2022 21:51:27) release log
+00:00:00.004830 main     Log opened 2023-02-22T03:50:22.944892600Z
+00:00:00.004831 main     Build Type: release
+00:00:00.004836 main     OS Product: Windows 11
+00:00:00.004837 main     OS Release: 10.0.22000
+00:00:00.004838 main     OS Service Pack: 
+00:00:00.082813 main     DMI Product Name: HP ENVY Laptop 13-ad0xx
+00:00:00.118499 main     DMI Product Version: Type1ProductConfigId
+00:00:00.118511 main     Firmware type: UEFI
+00:00:00.119012 main     Secure Boot: VERR_PRIVILEGE_NOT_HELD
+00:00:00.119047 main     Host RAM: 8036MB (7.8GB) total, 1721MB available
+00:00:00.119053 main     Executable: C:\Program Files\Oracle\VirtualBox\VBoxSVC.exe
+00:00:00.119054 main     Process ID: 13556
+00:00:00.119055 main     Package type: WINDOWS_64BITS_GENERIC
+00:00:00.147646          VirtualBox: object creation starts
+00:00:00.147991          Home directory: 'C:\Users\ruthe\.VirtualBox'
+00:00:00.148171          Installed Drivers:
+00:00:00.153010            C:\Windows\system32\DRIVERS\VBoxNetLwf.sys (Version: 6.1.36.2435)
+00:00:00.155048            C:\Windows\system32\DRIVERS\VBoxUSBMon.sys (Version: 6.1.36.2435)
+00:00:00.156786            C:\Windows\system32\DRIVERS\VBoxSup.sys (Version: 6.1.36.2435)
+00:00:00.158874            C:\Windows\system32\DRIVERS\VBoxNetAdp6.sys (Version: 6.1.36.2435)
+00:00:00.162957          Loading settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.165500          usbLibGetDevices: Starting USB device enumeration
+00:00:00.167547          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&e688183&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 6
+00:00:00.167638          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&e688183&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 8
+00:00:00.170367          usbLibGetDevices: Found 4 USB devices, 0 captured
+00:00:00.170493          USB: Unknown USB device detected (idVendor: 0x04f2, idProduct: 0xb5ed)
+00:00:00.170526          USB: Unknown USB device detected (idVendor: 0x1ea7, idProduct: 0x0064)
+00:00:00.170554          USB: Unknown USB device detected (idVendor: 0x8087, idProduct: 0x0a2a)
+00:00:00.358536          HostDnsMonitor: initializing
+00:00:00.372208          HostDnsMonitor: updating information
+00:00:00.372237          HostDnsMonitor: old information
+00:00:00.372238            no server entries
+00:00:00.372239            no domain set
+00:00:00.372240            no search string entries
+00:00:00.372240          HostDnsMonitor: new information
+00:00:00.372240            server 1: 192.168.1.1
+00:00:00.372241            domain: bbrouter
+00:00:00.372242            no search string entries
+00:00:00.520039          SUPR0QueryVTCaps -> VERR_VMX_MSR_ALL_VMX_DISABLED
+00:00:00.760299          VD: VDInit finished with VINF_SUCCESS
+00:00:00.773489          Loading settings file "C:\Users\ruthe\VirtualBox VMs\ubunto\ubunto.vbox" with version "1.16-windows"
+00:00:00.818230          OCI: Local config file 'C:\Users\ruthe\.VirtualBox\oci_config' does not exist
+00:00:00.818324          OCI: Original config file 'C:\Users\ruthe\.oci\config' does not exist
+00:00:00.818325          OCI: Reading profiles finished with status ERROR_SUCCESS
+00:00:00.818337          ExtPack: Created cloud provider 'OCI' (hrc=ERROR_SUCCESS)
+00:00:00.818378          VirtualBox: object created
+00:00:08.348281          Saving settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:08.358898          Saving settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:13.919959 main     VirtualBox: object deletion starts
+00:00:13.920172 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium 'C:\Users\ruthe\VirtualBox VMs\ubunto\ubunto.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:00:13.927439 main     HostDnsMonitor: shutting down ...
+00:00:13.927685 main     HostDnsMonitor: shut down
+00:00:13.935244 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={d0a0163f-e254-4e5b-a1f2-011cf991c38d} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:00:13.935854 main     VirtualBox: object deleted

@@ -1,0 +1,825 @@
+00:00:00.005197 main     VirtualBox COM Server 7.0.6 r155176 win.amd64 (Jan 11 2023 16:38:38) release log
+00:00:00.005200 main     Log opened 2023-02-28T01:41:23.873132100Z
+00:00:00.005200 main     Build Type: release
+00:00:00.005208 main     OS Product: Windows 11
+00:00:00.005209 main     OS Release: 10.0.22000
+00:00:00.005210 main     OS Service Pack: 
+00:00:00.112797 main     DMI Product Name: HP ENVY Laptop 13-ad0xx
+00:00:00.127308 main     DMI Product Version: Type1ProductConfigId
+00:00:00.127319 main     Firmware type: UEFI
+00:00:00.127745 main     Secure Boot: VERR_PRIVILEGE_NOT_HELD
+00:00:00.127773 main     Host RAM: 8036MB (7.8GB) total, 3912MB (3.8GB) available
+00:00:00.127778 main     Executable: C:\Program Files\Oracle\VirtualBox\VBoxSVC.exe
+00:00:00.127779 main     Process ID: 19272
+00:00:00.127779 main     Package type: WINDOWS_64BITS_GENERIC
+00:00:00.138515          VirtualBox: object creation starts
+00:00:00.138812          Home directory: 'C:\Users\ruthe\.VirtualBox'
+00:00:00.139032          Installed Drivers:
+00:00:00.146739            C:\Windows\system32\DRIVERS\VBoxNetLwf.sys (Version: 7.0.6.5176)
+00:00:00.148041            C:\Windows\system32\DRIVERS\VBoxUSBMon.sys (Version: 7.0.6.5176)
+00:00:00.148623            C:\Windows\system32\DRIVERS\VBoxSup.sys (Version: 7.0.6.5176)
+00:00:00.149625            C:\Windows\system32\DRIVERS\VBoxNetAdp6.sys (Version: 7.0.6.5176)
+00:00:00.157379          Loading settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.159143          usbLibGetDevices: Starting USB device enumeration
+00:00:00.160322          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&e688183&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 6
+00:00:00.160392          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&e688183&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 8
+00:00:00.162774          usbLibGetDevices: Found 3 USB devices, 0 captured
+00:00:00.162838          USB: Unknown USB device detected (idVendor: 0x04f2, idProduct: 0xb5ed)
+00:00:00.162883          USB: Unknown USB device detected (idVendor: 0x1ea7, idProduct: 0x0064)
+00:00:00.162911          USB: Unknown USB device detected (idVendor: 0x8087, idProduct: 0x0a2a)
+00:00:00.286201          HostDnsMonitor: initializing
+00:00:00.296875          HostDnsMonitor: updating information
+00:00:00.296903          HostDnsMonitor: old information
+00:00:00.296904            no server entries
+00:00:00.296905            no domain set
+00:00:00.296905            no search string entries
+00:00:00.296906          HostDnsMonitor: new information
+00:00:00.296906            server 1: 192.168.1.1
+00:00:00.296907            domain: bbrouter
+00:00:00.296908            no search string entries
+00:00:00.374547          VD: VDInit finished with VINF_SUCCESS
+00:00:00.575807          Loading settings file "C:\Users\ruthe\VirtualBox VMs\ubunto\ubunto.vbox" with version "1.19-windows"
+00:00:00.586410          Loading settings file "C:\Users\ruthe\VirtualBox VMs\mvwin\mvwin.vbox" with version "1.19-windows"
+00:00:00.596240          Loading settings file "C:\Users\ruthe\VirtualBox VMs\mvwin2\mvwin2.vbox" with version "1.19-windows"
+00:00:00.605736          Loading settings file "C:\Users\ruthe\VirtualBox VMs\mvwin3\mvwin3.vbox" with version "1.19-windows"
+00:00:00.672705          OCI: Local config file 'C:\Users\ruthe\.VirtualBox\oci_config' does not exist
+00:00:00.672791          OCI: Original config file 'C:\Users\ruthe\.oci\config' does not exist
+00:00:00.672792          OCI: Reading profiles finished with status ERROR_SUCCESS
+00:00:00.672810          ExtPack: Created cloud provider 'OCI' (hrc=ERROR_SUCCESS)
+00:00:00.672916          VirtualBox: object created
+00:00:00.749018          Saving settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.757428          Finished saving settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml"
+00:00:00.757831          Saving settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.765017          Finished saving settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml"
+00:00:00.765403          Saving settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.772252          Finished saving settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml"
+00:00:03.867828          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:06.627798          Saving settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:06.636944          Finished saving settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml"
+00:00:06.651626          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:09.864687          Launched VM: 3356558128 pid: 12644 (0x3164) frontend: GUI/Qt name: mvwin
+00:00:09.887892          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:19.622954          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:20.944050          Load [C:\Program Files\Oracle\VirtualBox\ExtensionPacks\Oracle_VM_VirtualBox_Extension_Pack\win.amd64\VBoxHostWebcam.DLL] vrc=VINF_SUCCESS
+00:00:26.763617          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:00:27.379301          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={The machine is not mutable or saved (state is Starting)}, preserve=false aResultDetail=0
+00:00:27.380481          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Starting)}, preserve=false aResultDetail=0
+00:00:29.538173          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:00:29.539119          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:00:29.618297          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:02:46.695499          Saving settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:02:46.706363          Finished saving settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml"
+00:02:46.726861          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:02:47.852113          Launched VM: 3359664816 pid: 5244 (0x147c) frontend: GUI/Qt name: mvwin2
+00:02:47.873018          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:02:55.904119          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:02:56.810937          Load [C:\Program Files\Oracle\VirtualBox\ExtensionPacks\Oracle_VM_VirtualBox_Extension_Pack\win.amd64\VBoxHostWebcam.DLL] vrc=VINF_SUCCESS
+00:03:00.493074          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:03:00.824774          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Starting)}, preserve=false aResultDetail=0
+00:03:00.846221          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={The machine is not mutable or saved (state is Starting)}, preserve=false aResultDetail=0
+00:03:03.606813          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:03:03.607519          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:03:03.664563          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:04:07.181900 dns-monitor HostDnsMonitor: updating information
+00:04:07.181954 dns-monitor HostDnsMonitor: old information
+00:04:07.181961 dns-monitor   server 1: 192.168.1.1
+00:04:07.181967 dns-monitor   domain: bbrouter
+00:04:07.181972 dns-monitor   no search string entries
+00:04:07.181976 dns-monitor HostDnsMonitor: new information
+00:04:07.181981 dns-monitor   no server entries
+00:04:07.181985 dns-monitor   no domain set
+00:04:07.181990 dns-monitor   no search string entries
+00:04:11.977084 dns-monitor HostDnsMonitor: updating information
+00:04:11.977138 dns-monitor HostDnsMonitor: old information
+00:04:11.977149 dns-monitor   no server entries
+00:04:11.977157 dns-monitor   no domain set
+00:04:11.977164 dns-monitor   no search string entries
+00:04:11.977172 dns-monitor HostDnsMonitor: new information
+00:04:11.977179 dns-monitor   server 1: 192.168.176.232
+00:04:11.977186 dns-monitor   no domain set
+00:04:11.977193 dns-monitor   no search string entries
+00:07:28.082719 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:07:28.086679 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&e688183&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 8
+00:07:28.087116 USBPROXY usbLibGetDevices: Found 2 USB devices, 0 captured
+00:07:29.473450 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:07:29.487914 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&e688183&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 8
+00:07:29.489459 USBPROXY usbLibGetDevices: Found 3 USB devices, 0 captured
+00:07:29.489531 USBPROXY USB: Unknown USB device detected (idVendor: 0x1ea7, idProduct: 0x0064)
+00:08:47.055911          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:08:52.459882          Saving settings file "C:\Users\ruthe\VirtualBox VMs\mvwin\mvwin.vbox" with version "1.19-windows"
+00:08:52.468331          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\mvwin\mvwin.vbox"
+00:08:52.537812          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:08:52.548333          Saving settings file "C:\Users\ruthe\VirtualBox VMs\mvwin\mvwin.vbox" with version "1.19-windows"
+00:08:52.554155          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\mvwin\mvwin.vbox"
+00:08:52.597003          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:09:04.577691          Saving settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:09:04.586602          Finished saving settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml"
+00:09:04.618677          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:09:09.592474          Launched VM: 3359665104 pid: 8224 (0x2020) frontend: GUI/Qt name: mvwin
+00:09:09.611077          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:09:19.093974          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:09:20.221588          Load [C:\Program Files\Oracle\VirtualBox\ExtensionPacks\Oracle_VM_VirtualBox_Extension_Pack\win.amd64\VBoxHostWebcam.DLL] vrc=VINF_SUCCESS
+00:09:24.742005          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:09:25.587267          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={The machine is not mutable or saved (state is Starting)}, preserve=false aResultDetail=0
+00:09:25.606654          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Starting)}, preserve=false aResultDetail=0
+00:09:28.473789          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:09:28.474634          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:09:28.558224          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:12:27.452257 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:12:27.564232 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&e688183&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 6
+00:12:27.564356 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&e688183&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 8
+00:12:27.571142 USBPROXY usbLibGetDevices: Found 4 USB devices, 0 captured
+00:15:32.696367          Saving settings file "C:\Users\ruthe\VirtualBox VMs\mvwin\mvwin.vbox" with version "1.19-windows"
+00:15:32.719685          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\mvwin\mvwin.vbox"
+00:15:33.072984          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:15:33.385517          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:15:37.397730          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:15:38.212386          Saving settings file "C:\Users\ruthe\VirtualBox VMs\mvwin2\mvwin2.vbox" with version "1.19-windows"
+00:15:38.264960          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\mvwin2\mvwin2.vbox"
+00:15:38.278297          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:27:08.996859          Saving settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:27:09.011724          Finished saving settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml"
+00:27:09.013888          Saving settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:27:09.022741          Finished saving settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml"
+00:27:45.250684 createBase Saving settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:27:45.256593 createBase Finished saving settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml"
+00:27:45.281797          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Administrador\Administrador.vbox" with version "1.19-windows"
+00:27:45.288673          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Administrador\Administrador.vbox"
+00:27:45.289000          Saving settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:27:45.296403          Finished saving settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml"
+00:27:45.304534          Saving settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:27:45.312316          Finished saving settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml"
+00:27:45.314857          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Administrador\Administrador.vbox" with version "1.19-windows"
+00:27:45.322561          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Administrador\Administrador.vbox"
+00:27:45.355101          UnattendedInstaller::initInstaller: UnattendedInstaller::savePassedData(): 
+00:27:45.420878          Unattended::i_reconfigureFloppy: Machine::addStorageController(Floppy) -> ERROR_SUCCESS 
+00:27:45.428741          Saving settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:27:45.434887          Finished saving settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml"
+00:27:45.435289          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Administrador\Administrador.vbox" with version "1.19-windows"
+00:27:45.441468          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Administrador\Administrador.vbox"
+00:27:45.480437          Launched VM: 3360373440 pid: 12740 (0x31c4) frontend: GUI/Qt name: Administrador
+00:27:45.546885          Saving settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:27:45.551627          Finished saving settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml"
+00:27:45.608114          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:27:55.285005          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:27:56.510484          Load [C:\Program Files\Oracle\VirtualBox\ExtensionPacks\Oracle_VM_VirtualBox_Extension_Pack\win.amd64\VBoxHostWebcam.DLL] vrc=VINF_SUCCESS
+00:28:02.036236          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:28:02.771006          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={The machine is not mutable or saved (state is Starting)}, preserve=false aResultDetail=0
+00:28:02.773160          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Administrador\Administrador.vbox" with version "1.19-windows"
+00:28:02.778359          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Administrador\Administrador.vbox"
+00:28:02.799012          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Starting)}, preserve=false aResultDetail=0
+00:28:04.956578          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:28:04.957120          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:28:04.957547          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:28:05.050834          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:28:06.931388          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Administrador\Administrador.vbox" with version "1.19-windows"
+00:28:06.945401          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Administrador\Administrador.vbox"
+00:28:06.971282          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:28:42.361855          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:29:08.655532          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Administrador\Administrador.vbox" with version "1.19-windows"
+00:29:08.666267          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Administrador\Administrador.vbox"
+00:29:08.701781          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:34:11.522807 dns-monitor HostDnsMonitor: updating information
+00:34:11.523412 dns-monitor HostDnsMonitor: unchanged
+00:36:22.394007 createBase Saving settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:36:22.402399 createBase Finished saving settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml"
+00:36:22.411893          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo1\Nodo1.vbox" with version "1.19-windows"
+00:36:22.415630          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo1\Nodo1.vbox"
+00:36:22.415818          Saving settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:36:22.419562          Finished saving settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml"
+00:36:22.422469          Saving settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:36:22.426638          Finished saving settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml"
+00:36:22.428381          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo1\Nodo1.vbox" with version "1.19-windows"
+00:36:22.432038          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo1\Nodo1.vbox"
+00:36:22.504455          Saving settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:36:22.509425          Finished saving settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml"
+00:36:22.568203          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:37:02.547887 createBase Saving settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:37:02.559460 createBase Finished saving settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml"
+00:37:02.568660          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo2\Nodo2.vbox" with version "1.19-windows"
+00:37:02.572433          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo2\Nodo2.vbox"
+00:37:02.572626          Saving settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:37:02.576990          Finished saving settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml"
+00:37:02.580468          Saving settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:37:02.585271          Finished saving settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml"
+00:37:02.587107          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo2\Nodo2.vbox" with version "1.19-windows"
+00:37:02.591431          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo2\Nodo2.vbox"
+00:37:02.639743          Saving settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:37:02.644680          Finished saving settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml"
+00:37:02.686374          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:37:04.169593          Saving settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:37:04.174386          Finished saving settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml"
+00:37:04.197562          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:37:13.898257          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Paused)}, preserve=false aResultDetail=0
+00:37:15.632494          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Administrador\Administrador.vbox" with version "1.19-windows"
+00:37:15.667090          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Administrador\Administrador.vbox"
+00:37:15.742073          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Stopping)}, preserve=false aResultDetail=0
+00:37:15.748257          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Administrador\Administrador.vbox" with version "1.19-windows"
+00:37:15.760805          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Administrador\Administrador.vbox"
+00:37:15.787156          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:37:16.817539          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:37:33.244027          Saving settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:37:33.254534          Finished saving settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml"
+00:37:33.254709          Saving settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:37:33.260775          Finished saving settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml"
+00:37:33.265366 DeleteVM Saving settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:37:33.276499 DeleteVM Finished saving settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml"
+00:37:33.289633          Saving settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:37:33.295803          Finished saving settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml"
+00:37:33.298757          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7682d5eb-f00e-44f1-8ca2-99d08b1cd607} aComponent={VirtualBoxWrap} aText={Could not find a registered machine with UUID {13819273-f24e-47fa-9c94-79117dc3f936}}, preserve=false aResultDetail=0
+00:37:33.306688          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7682d5eb-f00e-44f1-8ca2-99d08b1cd607} aComponent={VirtualBoxWrap} aText={Could not find a registered machine with UUID {13819273-f24e-47fa-9c94-79117dc3f936}}, preserve=false aResultDetail=0
+00:37:33.328053          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:38:17.779056 createBase Saving settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:38:17.789898 createBase Finished saving settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml"
+00:38:17.798290          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox" with version "1.19-windows"
+00:38:17.802819          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox"
+00:38:17.803177          Saving settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:38:17.809678          Finished saving settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml"
+00:38:17.812699          Saving settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:38:17.819264          Finished saving settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml"
+00:38:17.820891          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox" with version "1.19-windows"
+00:38:17.828887          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox"
+00:38:17.880042          Saving settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:38:17.885322          Finished saving settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml"
+00:38:17.918076          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:38:22.144694          Launched VM: 3360757840 pid: 9356 (0x248c) frontend: GUI/Qt name: Admin
+00:38:22.171704          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:38:31.625723          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:38:32.934897          Load [C:\Program Files\Oracle\VirtualBox\ExtensionPacks\Oracle_VM_VirtualBox_Extension_Pack\win.amd64\VBoxHostWebcam.DLL] vrc=VINF_SUCCESS
+00:38:40.426660          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:38:41.013263          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={The machine is not mutable or saved (state is Starting)}, preserve=false aResultDetail=0
+00:38:41.016613          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox" with version "1.19-windows"
+00:38:41.022201          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox"
+00:38:41.026769          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Starting)}, preserve=false aResultDetail=0
+00:38:41.035927          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Starting)}, preserve=false aResultDetail=0
+00:38:44.574174          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:38:44.574946          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:38:44.646330          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:38:47.459271          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox" with version "1.19-windows"
+00:38:47.464152          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox"
+00:38:47.479077          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:38:47.864144          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox" with version "1.19-windows"
+00:38:47.869515          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox"
+00:38:47.880956          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:38:54.460785          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox" with version "1.19-windows"
+00:38:54.466735          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox"
+00:38:54.478885          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:40:44.548135          Saving settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:40:44.558032          Finished saving settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml"
+00:40:44.572155          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:40:46.851574          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine.}, preserve=false aResultDetail=0
+00:40:47.153244          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:41:08.840646          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo1\Nodo1.vbox" with version "1.19-windows"
+00:41:08.845936          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo1\Nodo1.vbox"
+00:41:08.914701          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:41:09.551742          Saving settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:41:09.561933          Finished saving settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml"
+00:41:09.569777          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:41:11.589462          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine.}, preserve=false aResultDetail=0
+00:41:11.814536          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:41:21.622728          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo2\Nodo2.vbox" with version "1.19-windows"
+00:41:21.634329          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo2\Nodo2.vbox"
+00:41:21.696335          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:41:22.431575          Saving settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:41:22.441259          Finished saving settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml"
+00:41:22.467000          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:41:24.500017          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:41:31.189766          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox" with version "1.19-windows"
+00:41:31.195798          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox"
+00:41:31.254810          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:44:03.816965          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox" with version "1.19-windows"
+00:44:03.827049          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox"
+00:44:03.843188          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:44:11.784733          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox" with version "1.19-windows"
+00:44:11.794675          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox"
+00:44:11.808594          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:51:17.023436          Saving settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:51:17.037269          Finished saving settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml"
+00:51:17.057856          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:51:19.553177          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine.}, preserve=false aResultDetail=0
+00:51:19.846875          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:51:32.009084          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo1\Nodo1.vbox" with version "1.19-windows"
+00:51:32.026802          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo1\Nodo1.vbox"
+00:51:32.105337          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:53:31.999751          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox" with version "1.19-windows"
+00:53:32.020172          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox"
+00:53:32.050890          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:53:37.456481          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox" with version "1.19-windows"
+00:53:37.460234          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox"
+00:53:37.471522          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:53:38.865116          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox" with version "1.19-windows"
+00:53:38.869581          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox"
+00:53:38.879965          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:55:12.678756          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox" with version "1.19-windows"
+00:55:12.687026          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox"
+00:55:12.706789          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:55:19.755518          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox" with version "1.19-windows"
+00:55:19.759578          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox"
+00:55:19.775033          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:57:28.844680          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox" with version "1.19-windows"
+00:57:28.859006          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox"
+00:57:28.914292          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:57:31.364124          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox" with version "1.19-windows"
+00:57:31.374466          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox"
+00:57:31.391338          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:57:35.926523          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox" with version "1.19-windows"
+00:57:35.931411          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox"
+00:57:35.941761          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+01:01:34.194903          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox" with version "1.19-windows"
+01:01:34.214056          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox"
+01:01:34.242377          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+01:02:00.738342          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox" with version "1.19-windows"
+01:02:00.744197          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox"
+01:02:00.755233          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+01:03:32.256919          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox" with version "1.19-windows"
+01:03:32.266078          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox"
+01:03:32.284109          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+01:04:10.615031 dns-monitor HostDnsMonitor: updating information
+01:04:10.615103 dns-monitor HostDnsMonitor: unchanged
+01:05:53.323383          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox" with version "1.19-windows"
+01:05:53.337929          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox"
+01:05:53.363467          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+01:05:55.799819          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox" with version "1.19-windows"
+01:05:55.809735          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox"
+01:05:55.819196          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+01:06:03.255150          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox" with version "1.19-windows"
+01:06:03.260868          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox"
+01:06:03.278284          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+01:12:13.068566          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox" with version "1.19-windows"
+01:12:13.077544          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox"
+01:12:13.091411          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+01:12:13.801467          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox" with version "1.19-windows"
+01:12:13.810860          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox"
+01:12:13.824645          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+01:12:18.973811          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox" with version "1.19-windows"
+01:12:18.983657          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox"
+01:12:18.996348          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+01:12:25.111470          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox" with version "1.19-windows"
+01:12:25.120936          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox"
+01:12:25.135037          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+01:15:39.649334          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox" with version "1.19-windows"
+01:15:39.658828          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox"
+01:15:39.674189          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+01:15:43.847647          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox" with version "1.19-windows"
+01:15:43.857330          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox"
+01:15:43.867473          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+01:21:52.731692          Saving settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:21:52.740814          Finished saving settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml"
+01:21:52.748382          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+01:21:56.010570          Saving settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:21:56.026875          Finished saving settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml"
+01:21:56.033952          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+01:21:57.317142          Launched VM: 3359662560 pid: 11608 (0x2d58) frontend: GUI/Qt name: Nodo1
+01:21:57.342857          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+01:22:04.927087          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+01:22:05.700464          Load [C:\Program Files\Oracle\VirtualBox\ExtensionPacks\Oracle_VM_VirtualBox_Extension_Pack\win.amd64\VBoxHostWebcam.DLL] vrc=VINF_SUCCESS
+01:22:09.164163          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+01:22:09.647881          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={The machine is not mutable or saved (state is Starting)}, preserve=false aResultDetail=0
+01:22:09.652222          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo1\Nodo1.vbox" with version "1.19-windows"
+01:22:09.663326          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo1\Nodo1.vbox"
+01:22:09.683408          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Starting)}, preserve=false aResultDetail=0
+01:22:09.687530          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Starting)}, preserve=false aResultDetail=0
+01:22:09.692164          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Starting)}, preserve=false aResultDetail=0
+01:22:11.839950          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+01:22:11.840867          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+01:22:11.952688          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+01:22:14.977814          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo1\Nodo1.vbox" with version "1.19-windows"
+01:22:14.991910          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo1\Nodo1.vbox"
+01:22:15.027947          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+01:22:19.909378          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo1\Nodo1.vbox" with version "1.19-windows"
+01:22:19.913813          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo1\Nodo1.vbox"
+01:22:19.926741          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+01:22:21.864906          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo1\Nodo1.vbox" with version "1.19-windows"
+01:22:21.875920          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo1\Nodo1.vbox"
+01:22:21.888720          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+01:22:45.953247          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox" with version "1.19-windows"
+01:22:45.966122          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox"
+01:22:45.984211          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+01:29:17.892066          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox" with version "1.19-windows"
+01:29:17.908397          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox"
+01:29:17.950948          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+01:29:38.220443          Saving settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:29:38.228008          Finished saving settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml"
+01:29:38.255976          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+01:29:41.726707          Launched VM: 3323850352 pid: 8992 (0x2320) frontend: GUI/Qt name: mvwin
+01:29:41.757117          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+01:29:50.051664          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+01:29:50.906845          Load [C:\Program Files\Oracle\VirtualBox\ExtensionPacks\Oracle_VM_VirtualBox_Extension_Pack\win.amd64\VBoxHostWebcam.DLL] vrc=VINF_SUCCESS
+01:29:55.026239          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+01:29:55.987716          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={The machine is not mutable or saved (state is Starting)}, preserve=false aResultDetail=0
+01:29:56.014954          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Starting)}, preserve=false aResultDetail=0
+01:29:59.023439          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+01:29:59.024521          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+01:29:59.139541          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+01:31:28.240522          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Paused)}, preserve=false aResultDetail=0
+01:31:31.426278          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+01:34:09.792899 dns-monitor HostDnsMonitor: updating information
+01:34:09.794407 dns-monitor HostDnsMonitor: unchanged
+01:35:00.691970          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo1\Nodo1.vbox" with version "1.19-windows"
+01:35:00.726856          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo1\Nodo1.vbox"
+01:35:01.075010          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo1\Nodo1.vbox" with version "1.19-windows"
+01:35:01.096907          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo1\Nodo1.vbox"
+01:35:04.586545          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo1\Nodo1.vbox" with version "1.19-windows"
+01:35:04.596625          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo1\Nodo1.vbox"
+01:40:01.118543          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo1\Nodo1.vbox" with version "1.19-windows"
+01:40:01.148692          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo1\Nodo1.vbox"
+01:40:03.553247          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo1\Nodo1.vbox" with version "1.19-windows"
+01:40:03.569798          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo1\Nodo1.vbox"
+01:40:07.928600          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo1\Nodo1.vbox" with version "1.19-windows"
+01:40:07.936832          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo1\Nodo1.vbox"
+02:04:08.048366 dns-monitor HostDnsMonitor: updating information
+02:04:08.049881 dns-monitor HostDnsMonitor: unchanged
+02:14:57.050339 dns-monitor HostDnsMonitor: updating information
+02:14:57.053092 dns-monitor HostDnsMonitor: unchanged
+02:15:15.197053 dns-monitor HostDnsMonitor: updating information
+02:15:15.199088 dns-monitor HostDnsMonitor: old information
+02:15:15.199119 dns-monitor   server 1: 192.168.176.232
+02:15:15.199132 dns-monitor   no domain set
+02:15:15.199141 dns-monitor   no search string entries
+02:15:15.199149 dns-monitor HostDnsMonitor: new information
+02:15:15.199157 dns-monitor   no server entries
+02:15:15.199165 dns-monitor   no domain set
+02:15:15.199173 dns-monitor   no search string entries
+02:15:20.561075 dns-monitor HostDnsMonitor: updating information
+02:15:20.561130 dns-monitor HostDnsMonitor: old information
+02:15:20.561140 dns-monitor   no server entries
+02:15:20.561150 dns-monitor   no domain set
+02:15:20.561160 dns-monitor   no search string entries
+02:15:20.561169 dns-monitor HostDnsMonitor: new information
+02:15:20.561177 dns-monitor   server 1: 192.168.1.1
+02:15:20.561186 dns-monitor   domain: bbrouter
+02:15:20.561195 dns-monitor   no search string entries
+02:15:23.745757 dns-monitor HostDnsMonitor: updating information
+02:15:23.745808 dns-monitor HostDnsMonitor: unchanged
+02:18:45.886802          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo1\Nodo1.vbox" with version "1.19-windows"
+02:18:45.920910          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo1\Nodo1.vbox"
+02:18:48.318539          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo1\Nodo1.vbox" with version "1.19-windows"
+02:18:48.324418          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo1\Nodo1.vbox"
+02:18:52.759445          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo1\Nodo1.vbox" with version "1.19-windows"
+02:18:52.775324          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo1\Nodo1.vbox"
+02:32:02.146199 dns-monitor HostDnsMonitor: updating information
+02:32:02.150074 dns-monitor HostDnsMonitor: old information
+02:32:02.150106 dns-monitor   server 1: 192.168.1.1
+02:32:02.150116 dns-monitor   domain: bbrouter
+02:32:02.150123 dns-monitor   no search string entries
+02:32:02.150131 dns-monitor HostDnsMonitor: new information
+02:32:02.150138 dns-monitor   no server entries
+02:32:02.150145 dns-monitor   no domain set
+02:32:02.150151 dns-monitor   no search string entries
+02:32:04.694518 dns-monitor HostDnsMonitor: updating information
+02:32:04.694558 dns-monitor HostDnsMonitor: old information
+02:32:04.694570 dns-monitor   no server entries
+02:32:04.694578 dns-monitor   no domain set
+02:32:04.694585 dns-monitor   no search string entries
+02:32:04.694592 dns-monitor HostDnsMonitor: new information
+02:32:04.694600 dns-monitor   server 1: 192.168.176.232
+02:32:04.695079 dns-monitor   no domain set
+02:32:04.695103 dns-monitor   no search string entries
+02:32:05.301255 USBPROXY usbLibGetDevices: Starting USB device enumeration
+02:32:05.311234 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&e688183&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 6
+02:32:05.312317 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&e688183&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 8
+02:32:05.318124 USBPROXY usbLibGetDevices: Found 4 USB devices, 0 captured
+02:32:08.053640 USBPROXY usbLibGetDevices: Starting USB device enumeration
+02:32:08.056095 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&e688183&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 6
+02:32:08.056268 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&e688183&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 8
+02:32:08.056574 USBPROXY usbLibGetDevices: Found 4 USB devices, 0 captured
+02:32:15.015856 dns-monitor HostDnsMonitor: updating information
+02:32:15.015905 dns-monitor HostDnsMonitor: unchanged
+02:32:25.202210 MainPower Host suspending: Paused 2 VMs
+02:32:25.632841          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Paused)}, preserve=false aResultDetail=0
+02:32:53.269393 MainPower Host resumed: Resumed 2 VMs
+02:32:55.440379 dns-monitor HostDnsMonitor: updating information
+02:32:55.440426 dns-monitor HostDnsMonitor: unchanged
+02:32:57.485206 dns-monitor HostDnsMonitor: updating information
+02:32:57.485248 dns-monitor HostDnsMonitor: unchanged
+02:33:03.708977          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+02:33:57.058784 USBPROXY usbLibGetDevices: Starting USB device enumeration
+02:33:57.068237 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&e688183&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 6
+02:33:57.068408 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&e688183&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 8
+02:33:57.071405 USBPROXY usbLibGetDevices: Found 4 USB devices, 0 captured
+02:37:07.310668          Saving settings file "C:\Users\ruthe\VirtualBox VMs\mvwin\mvwin.vbox" with version "1.19-windows"
+02:37:07.359495          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\mvwin\mvwin.vbox"
+02:37:07.414104          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+02:37:08.852468          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+02:38:16.235806          Saving settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+02:38:16.250798          Finished saving settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml"
+02:38:16.296120          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+02:38:21.875535          Launched VM: 3360908752 pid: 21228 (0x52ec) frontend: GUI/Qt name: Admin
+02:38:21.910992          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+02:38:29.992382          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+02:38:30.862618          Load [C:\Program Files\Oracle\VirtualBox\ExtensionPacks\Oracle_VM_VirtualBox_Extension_Pack\win.amd64\VBoxHostWebcam.DLL] vrc=VINF_SUCCESS
+02:38:34.803021          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+02:38:35.536542          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={The machine is not mutable or saved (state is Starting)}, preserve=false aResultDetail=0
+02:38:35.543612          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Starting)}, preserve=false aResultDetail=0
+02:38:37.876679          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+02:38:37.877293          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+02:38:37.960915          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+02:40:05.668142          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox" with version "1.19-windows"
+02:40:05.682833          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox"
+02:40:05.721217          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+02:40:10.025143          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox" with version "1.19-windows"
+02:40:10.036131          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox"
+02:40:10.076755          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox" with version "1.19-windows"
+02:40:10.083295          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox"
+02:40:10.145336          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+02:40:10.164432          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+02:40:10.432438          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox" with version "1.19-windows"
+02:40:10.437866          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox"
+02:40:10.464771          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+02:41:48.915519          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox" with version "1.19-windows"
+02:41:48.926150          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox"
+02:41:48.956891          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+02:41:50.244967          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox" with version "1.19-windows"
+02:41:50.253511          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox"
+02:41:50.269381          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox" with version "1.19-windows"
+02:41:50.286871          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox"
+02:41:50.295158          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+02:41:50.304946          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+02:41:50.682004          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox" with version "1.19-windows"
+02:41:50.690230          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox"
+02:41:50.713213          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+02:42:02.815335          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+02:42:31.399204          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox" with version "1.19-windows"
+02:42:31.405171          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox"
+02:42:31.430104          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+02:44:14.572607          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+02:44:22.124015          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox" with version "1.19-windows"
+02:44:22.142247          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox"
+02:44:22.166366          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+02:44:56.544834          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo1\Nodo1.vbox" with version "1.19-windows"
+02:44:56.553075          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo1\Nodo1.vbox"
+02:45:04.086147          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+02:45:26.404650          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo1\Nodo1.vbox" with version "1.19-windows"
+02:45:26.417290          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo1\Nodo1.vbox"
+02:45:43.232582          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+02:45:43.252793          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo1\Nodo1.vbox" with version "1.19-windows"
+02:45:43.258399          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo1\Nodo1.vbox"
+02:45:43.276790          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+02:47:50.340469          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox" with version "1.19-windows"
+02:47:50.349567          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox"
+02:47:50.392534          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+02:47:51.272313          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox" with version "1.19-windows"
+02:47:51.279499          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox"
+02:47:51.303787          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+02:48:05.458132          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox" with version "1.19-windows"
+02:48:05.467377          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox"
+02:48:05.480744          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+02:48:05.947080          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo1\Nodo1.vbox" with version "1.19-windows"
+02:48:05.955103          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo1\Nodo1.vbox"
+02:48:05.967898          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+02:48:07.929643          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox" with version "1.19-windows"
+02:48:07.945359          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox"
+02:48:07.965543          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+02:48:08.430970          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox" with version "1.19-windows"
+02:48:08.438006          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox"
+02:48:08.468391          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+02:48:10.050521          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo1\Nodo1.vbox" with version "1.19-windows"
+02:48:10.062757          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo1\Nodo1.vbox"
+02:48:10.087685          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+02:48:10.350204          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo1\Nodo1.vbox" with version "1.19-windows"
+02:48:10.355987          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo1\Nodo1.vbox"
+02:48:10.374480          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+02:48:12.664331          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo1\Nodo1.vbox" with version "1.19-windows"
+02:48:12.670507          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo1\Nodo1.vbox"
+02:48:12.716107          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+02:48:16.384015          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox" with version "1.19-windows"
+02:48:16.397290          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox"
+02:48:16.418086          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+02:49:33.852788          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox" with version "1.19-windows"
+02:49:33.867286          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox"
+02:49:33.879671          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox" with version "1.19-windows"
+02:49:33.885340          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox"
+02:49:33.949694          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+02:49:45.483296          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+02:50:14.458922          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox" with version "1.19-windows"
+02:50:14.467011          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox"
+02:50:14.490794          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+02:50:50.576078          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo1\Nodo1.vbox" with version "1.19-windows"
+02:50:50.598372          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo1\Nodo1.vbox"
+02:50:51.672995          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+02:51:55.738394          Saving settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+02:51:55.744629          Finished saving settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml"
+02:51:55.760720          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+02:51:57.284166          Saving settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+02:51:57.294126          Finished saving settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml"
+02:51:57.302231          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+02:52:00.504487          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine.}, preserve=false aResultDetail=0
+02:52:00.751112          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+02:52:08.714498          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo1\Nodo1.vbox" with version "1.19-windows"
+02:52:08.720303          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo1\Nodo1.vbox"
+02:52:08.784211          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+02:52:09.828472          Saving settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+02:52:09.832680          Finished saving settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml"
+02:52:09.839517          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+02:52:12.622744          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine.}, preserve=false aResultDetail=0
+02:52:12.859134          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+02:52:25.363773          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo2\Nodo2.vbox" with version "1.19-windows"
+02:52:25.371179          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo2\Nodo2.vbox"
+02:52:25.430666          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+02:52:28.819022          Launched VM: 3360373248 pid: 9324 (0x246c) frontend: GUI/Qt name: Nodo2
+02:52:28.843082          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+02:52:37.343225          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+02:52:38.161049          Load [C:\Program Files\Oracle\VirtualBox\ExtensionPacks\Oracle_VM_VirtualBox_Extension_Pack\win.amd64\VBoxHostWebcam.DLL] vrc=VINF_SUCCESS
+02:52:41.894970          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+02:52:42.323560          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={The machine is not mutable or saved (state is Starting)}, preserve=false aResultDetail=0
+02:52:42.329932          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo2\Nodo2.vbox" with version "1.19-windows"
+02:52:42.334533          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo2\Nodo2.vbox"
+02:52:42.351641          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Starting)}, preserve=false aResultDetail=0
+02:52:42.358747          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Starting)}, preserve=false aResultDetail=0
+02:52:45.152130          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+02:52:45.152644          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+02:52:45.224377          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+02:52:48.412099          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo2\Nodo2.vbox" with version "1.19-windows"
+02:52:48.422245          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo2\Nodo2.vbox"
+02:52:48.467497          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+02:52:53.850781          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo2\Nodo2.vbox" with version "1.19-windows"
+02:52:53.856743          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo2\Nodo2.vbox"
+02:52:53.872334          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+03:00:24.329596          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo2\Nodo2.vbox" with version "1.19-windows"
+03:00:24.346120          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo2\Nodo2.vbox"
+03:00:24.463420          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+03:00:26.852761          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo2\Nodo2.vbox" with version "1.19-windows"
+03:00:26.862454          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo2\Nodo2.vbox"
+03:00:26.875765          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+03:00:34.176263          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo2\Nodo2.vbox" with version "1.19-windows"
+03:00:34.188686          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo2\Nodo2.vbox"
+03:00:34.236454          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+03:00:41.116930          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo2\Nodo2.vbox" with version "1.19-windows"
+03:00:41.128451          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo2\Nodo2.vbox"
+03:00:41.149041          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+03:01:05.016828          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+03:01:05.055158          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox" with version "1.19-windows"
+03:01:05.068305          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox"
+03:01:05.092556          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+03:01:07.460485          Saving settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+03:01:07.471053          Finished saving settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml"
+03:01:07.490271          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+03:01:08.773212          Launched VM: 3360832640 pid: 13396 (0x3454) frontend: GUI/Qt name: Nodo1
+03:01:08.812778          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+03:01:15.908003          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+03:01:16.660292          Load [C:\Program Files\Oracle\VirtualBox\ExtensionPacks\Oracle_VM_VirtualBox_Extension_Pack\win.amd64\VBoxHostWebcam.DLL] vrc=VINF_SUCCESS
+03:01:20.538819          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+03:01:21.033386          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={The machine is not mutable or saved (state is Starting)}, preserve=false aResultDetail=0
+03:01:21.041512          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Starting)}, preserve=false aResultDetail=0
+03:01:23.660316          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+03:01:23.661166          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+03:01:23.753717          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+03:02:56.640537 dns-monitor HostDnsMonitor: updating information
+03:02:56.640592 dns-monitor HostDnsMonitor: unchanged
+03:04:50.804579          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo2\Nodo2.vbox" with version "1.19-windows"
+03:04:50.811454          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo2\Nodo2.vbox"
+03:04:53.273504          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo2\Nodo2.vbox" with version "1.19-windows"
+03:04:53.281954          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo2\Nodo2.vbox"
+03:04:57.722820          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo2\Nodo2.vbox" with version "1.19-windows"
+03:04:57.730674          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo2\Nodo2.vbox"
+03:04:59.442690          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo1\Nodo1.vbox" with version "1.19-windows"
+03:04:59.456512          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo1\Nodo1.vbox"
+03:04:59.475927          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+03:05:04.737112          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo1\Nodo1.vbox" with version "1.19-windows"
+03:05:04.748119          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo1\Nodo1.vbox"
+03:05:04.793842          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo1\Nodo1.vbox" with version "1.19-windows"
+03:05:04.806040          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo1\Nodo1.vbox"
+03:05:04.840824          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+03:05:04.848099          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+03:05:05.227102          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo1\Nodo1.vbox" with version "1.19-windows"
+03:05:05.232293          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo1\Nodo1.vbox"
+03:05:05.253309          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+03:14:55.282487          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo2\Nodo2.vbox" with version "1.19-windows"
+03:14:55.301262          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo2\Nodo2.vbox"
+03:15:00.739097          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo2\Nodo2.vbox" with version "1.19-windows"
+03:15:00.749346          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo2\Nodo2.vbox"
+03:15:02.146696          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo2\Nodo2.vbox" with version "1.19-windows"
+03:15:02.150898          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo2\Nodo2.vbox"
+03:16:03.587288          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo1\Nodo1.vbox" with version "1.19-windows"
+03:16:03.599742          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo1\Nodo1.vbox"
+03:16:03.628860          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+03:16:04.634588          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+03:16:10.371170          Saving settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+03:16:10.386525          Finished saving settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml"
+03:16:10.399471          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+03:16:11.551358          Launched VM: 3356226512 pid: 2592 (0xa20) frontend: GUI/Qt name: Admin
+03:16:11.593087          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+03:16:18.938971          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+03:16:19.753145          Load [C:\Program Files\Oracle\VirtualBox\ExtensionPacks\Oracle_VM_VirtualBox_Extension_Pack\win.amd64\VBoxHostWebcam.DLL] vrc=VINF_SUCCESS
+03:16:23.561695          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+03:16:24.086590          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={The machine is not mutable or saved (state is Starting)}, preserve=false aResultDetail=0
+03:16:24.097990          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Starting)}, preserve=false aResultDetail=0
+03:16:26.761897          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+03:16:26.762461          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+03:16:26.827365          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+03:21:43.931588          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo2\Nodo2.vbox" with version "1.19-windows"
+03:21:43.942807          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo2\Nodo2.vbox"
+03:22:12.259255          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+03:22:12.260241          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo2\Nodo2.vbox" with version "1.19-windows"
+03:22:12.270129          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo2\Nodo2.vbox"
+03:22:12.305495          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+03:26:16.796340          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo2\Nodo2.vbox" with version "1.19-windows"
+03:26:16.805344          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo2\Nodo2.vbox"
+03:26:16.824304          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+03:26:20.052809          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo2\Nodo2.vbox" with version "1.19-windows"
+03:26:20.065830          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo2\Nodo2.vbox"
+03:26:20.092557          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo2\Nodo2.vbox" with version "1.19-windows"
+03:26:20.096898          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+03:26:20.099654          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo2\Nodo2.vbox"
+03:26:20.146241          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+03:26:20.379264          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo2\Nodo2.vbox" with version "1.19-windows"
+03:26:20.384118          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo2\Nodo2.vbox"
+03:26:20.398688          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+03:26:22.161389          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo2\Nodo2.vbox" with version "1.19-windows"
+03:26:22.165849          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo2\Nodo2.vbox"
+03:26:22.179153          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+03:26:57.655759          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+03:27:15.895991          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo2\Nodo2.vbox" with version "1.19-windows"
+03:27:15.906937          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo2\Nodo2.vbox"
+03:27:15.938067          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+03:32:55.967031 dns-monitor HostDnsMonitor: updating information
+03:32:55.967550 dns-monitor HostDnsMonitor: unchanged
+03:39:54.128730          Saving settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+03:39:54.143535          Finished saving settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml"
+03:39:54.188022          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+03:39:55.321697          Saving settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+03:39:55.333054          Finished saving settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml"
+03:39:55.361234          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+03:40:02.434302          Saving settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+03:40:02.446704          Finished saving settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml"
+03:40:02.471844          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+03:40:05.041595          Launched VM: 3360909856 pid: 14436 (0x3864) frontend: GUI/Qt name: Nodo1
+03:40:05.098266          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+03:40:12.950185          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+03:40:13.807313          Load [C:\Program Files\Oracle\VirtualBox\ExtensionPacks\Oracle_VM_VirtualBox_Extension_Pack\win.amd64\VBoxHostWebcam.DLL] vrc=VINF_SUCCESS
+03:40:17.560507          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+03:40:18.334118          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={The machine is not mutable or saved (state is Starting)}, preserve=false aResultDetail=0
+03:40:18.340036          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo1\Nodo1.vbox" with version "1.19-windows"
+03:40:18.349818          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo1\Nodo1.vbox"
+03:40:18.378568          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Starting)}, preserve=false aResultDetail=0
+03:40:18.389796          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Starting)}, preserve=false aResultDetail=0
+03:40:20.923417          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+03:40:20.924112          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+03:40:21.020116          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+03:40:23.788437          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo1\Nodo1.vbox" with version "1.19-windows"
+03:40:23.796045          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo1\Nodo1.vbox"
+03:40:23.822842          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+03:40:24.349385          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo1\Nodo1.vbox" with version "1.19-windows"
+03:40:24.357991          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo1\Nodo1.vbox"
+03:40:24.384025          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+03:40:26.862818          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo2\Nodo2.vbox" with version "1.19-windows"
+03:40:26.904268          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo2\Nodo2.vbox"
+03:40:26.956706          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+03:40:35.991297          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo1\Nodo1.vbox" with version "1.19-windows"
+03:40:36.022499          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo1\Nodo1.vbox"
+03:40:36.080207          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+03:40:40.686012          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo2\Nodo2.vbox" with version "1.19-windows"
+03:40:40.700220          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo2\Nodo2.vbox"
+03:40:40.769912          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+03:40:46.207529          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo1\Nodo1.vbox" with version "1.19-windows"
+03:40:46.216299          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo1\Nodo1.vbox"
+03:40:46.236388          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+03:55:00.995204          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo1\Nodo1.vbox" with version "1.19-windows"
+03:55:01.010202          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo1\Nodo1.vbox"
+03:55:01.112345          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+04:00:48.093346          Saving settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+04:00:48.117299          Finished saving settings file "C:\Users\ruthe\.VirtualBox\VirtualBox.xml"
+04:00:48.171474          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+04:00:51.382744          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine.}, preserve=false aResultDetail=0
+04:00:51.683832          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+04:00:56.996414          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo2\Nodo2.vbox" with version "1.19-windows"
+04:00:57.003315          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo2\Nodo2.vbox"
+04:00:57.084109          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+04:00:59.372463          Launched VM: 3359664192 pid: 3928 (0xf58) frontend: GUI/Qt name: Nodo2
+04:00:59.409286          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+04:01:09.011674          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+04:01:10.220539          Load [C:\Program Files\Oracle\VirtualBox\ExtensionPacks\Oracle_VM_VirtualBox_Extension_Pack\win.amd64\VBoxHostWebcam.DLL] vrc=VINF_SUCCESS
+04:01:16.040671          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+04:01:16.714316          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={The machine is not mutable or saved (state is Starting)}, preserve=false aResultDetail=0
+04:01:16.733105          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Starting)}, preserve=false aResultDetail=0
+04:01:19.580843          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+04:01:19.581520          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+04:01:19.805235          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+04:02:55.237078 dns-monitor HostDnsMonitor: updating information
+04:02:55.238293 dns-monitor HostDnsMonitor: unchanged
+04:32:54.436558 dns-monitor HostDnsMonitor: updating information
+04:32:54.438150 dns-monitor HostDnsMonitor: unchanged
+04:55:18.537473          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo1\Nodo1.vbox" with version "1.19-windows"
+04:55:18.561710          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo1\Nodo1.vbox"
+04:55:18.686668          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+04:55:34.380129          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+04:55:34.419103          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox" with version "1.19-windows"
+04:55:34.434534          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vbox"
+04:55:34.465329          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+04:55:41.598863          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Stopping)}, preserve=false aResultDetail=0
+04:55:41.610205          Saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo2\Nodo2.vbox" with version "1.19-windows"
+04:55:41.623842          Finished saving settings file "C:\Users\ruthe\VirtualBox VMs\Nodo2\Nodo2.vbox"
+04:55:41.640926          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+04:55:43.176212          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+04:56:16.061945 main     VirtualBox: object deletion starts
+04:56:16.064651 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium 'C:\Users\ruthe\VirtualBox VMs\ubunto\ubunto.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+04:56:16.068819 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium 'C:\Users\ruthe\VirtualBox VMs\mvwin\mvwin.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+04:56:16.071414 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium 'C:\Users\ruthe\VirtualBox VMs\mvwin2\mvwin2.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+04:56:16.073714 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium 'C:\Users\ruthe\VirtualBox VMs\mvwin3\mvwin3.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+04:56:16.074633 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium 'C:\Users\ruthe\VirtualBox VMs\Nodo1\Nodo1.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+04:56:16.076928 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium 'C:\Users\ruthe\VirtualBox VMs\Nodo2\Nodo2.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+04:56:16.077914 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium 'C:\Users\ruthe\VirtualBox VMs\Admin\Admin.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+04:56:16.098152 main     HostDnsMonitor: shutting down ...
+04:56:16.098766 main     HostDnsMonitor: shut down
+04:56:16.141616 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={7682d5eb-f00e-44f1-8ca2-99d08b1cd607} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+04:56:16.147874 main     VirtualBox: object deleted

@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Sat Nov 05 23:25:34 CST 2022
+@default-central-https\://repo.maven.apache.org/maven2/.lastUpdated=1667712334734
+https\://repo.maven.apache.org/maven2/.error=Could not transfer artifact com.dlsc.formsfx\:formsfx-core\:pom\:11.5.0 from/to central (https\://repo.maven.apache.org/maven2)\: transfer failed for https\://repo.maven.apache.org/maven2/com/dlsc/formsfx/formsfx-core/11.5.0/formsfx-core-11.5.0.pom
